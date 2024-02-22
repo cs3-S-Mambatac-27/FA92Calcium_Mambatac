@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>Second Page</title>
+    <script>
+        function changeimage() {
+            document.getElementById("mainimage").src = "image2.png";
+        }
+        function backimage() {
+            document.getElementById("mainimage").src = "image1.png";
+        }
+    </script>
+</head>
+<body>
+    <img id="mainimage" src="image1.png" alt="image">
+    <button onclick="changeimage()">Change Image</button>
+    <button onclick="backimage()">Back Image</button>
+</body>
+</html>
